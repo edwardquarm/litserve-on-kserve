@@ -31,7 +31,7 @@ Follow these steps to serve a model using LitServe on KServe:
 5. **Deploy on KServe**:
    Configure KServe to use the image from Quay. Refer to the [KServe documentation](https://kserve.github.io/website/) for deployment instructions.
 
-   ``kubectl apply -f litserve.yaml``
+   ``kubectl apply -f deployment/litserve.yaml``
 
 ## Running Locally
 
